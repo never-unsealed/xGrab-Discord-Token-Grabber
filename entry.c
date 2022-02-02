@@ -10,7 +10,7 @@ int xGrabEntry() {
 	
 	loadFunctions();
 
-	if (TRUE || !checkDebuggerPEB() && !checkDebuggerQuery() && !checkDebuggerGlobalFlags()) {
+	if (!checkDebuggerPEB() && !checkDebuggerQuery() && !checkDebuggerGlobalFlags()) {
 
 		do {
 
