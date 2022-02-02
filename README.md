@@ -9,6 +9,8 @@ PoC for obtaining Discord login tokens
 
 -File size compiled: 8KB
 
+-Mostly relying on own implementations and the Windows native API (NTAPI)
+
 -Anti debugging techniques
 
 -Anti hooking techniques
